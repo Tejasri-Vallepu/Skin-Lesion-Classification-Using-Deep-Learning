@@ -1,0 +1,116 @@
+
+/* Main application background */
+.stApp {
+    background: #F4F7FB;
+    color: #172B3A;
+}
+
+/* Main content width */
+.block-container {
+    max-width: 1200px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* Main heading */
+h1 {
+    color: #142C3E !important;
+    font-weight: 800 !important;
+    letter-spacing: -1px;
+}
+
+h2, h3 {
+    color: #183B50 !important;
+    font-weight: 700 !important;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #142C3E;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #FFFFFF;
+}
+
+/* Upload area */
+[data-testid="stFileUploader"] {
+    background: #FFFFFF;
+    border: 2px dashed #75AFAF;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+/* Buttons */
+.stButton > button {
+    background: #087F8C;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.65rem 1.2rem;
+    font-weight: 700;
+    transition: 0.2s ease;
+}
+
+.stButton > button:hover {
+    background: #066570;
+    color: white;
+    border: none;
+}
+
+/* Metrics */
+[data-testid="stMetric"] {
+    background: white;
+    padding: 18px;
+    border-radius: 14px;
+    border: 1px solid #E3EAF0;
+    box-shadow: 0 3px 12px rgba(20, 44, 62, 0.05);
+}
+
+/* Alerts */
+[data-testid="stAlert"] {
+    border-radius: 12px;
+}
+
+/* Images */
+[data-testid="stImage"] img {
+    border-radius: 14px;
+}
+
+/* Dataframes */
+[data-testid="stDataFrame"] {
+    border-radius: 12px;
+}
+
+/* Custom information cards */
+.info-card {
+    background: white;
+    padding: 22px;
+    border-radius: 16px;
+    border: 1px solid #E3EAF0;
+    box-shadow: 0 4px 15px rgba(20, 44, 62, 0.04);
+    margin-bottom: 15px;
+}
+
+.hero {
+    background: linear-gradient(120deg, #142C3E, #087F8C);
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+
+.hero h2 {
+    color: white !important;
+    margin-bottom: 8px;
+}
+
+.hero p {
+    color: #DCEEF0;
+    margin-bottom: 0;
+}
+
+.small-note {
+    color: #647789;
+    font-size: 13px;
+}
